@@ -1,61 +1,61 @@
-[dotenv@17.2.3] injecting env (4) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (4) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
 TAP version 14
 # Subtest: POST /users/signup
     ok 1 - should be equal
     1..1
-ok 1 - POST /users/signup # time=154.943ms
+ok 1 - POST /users/signup # time=141.927ms
 
 # Subtest: POST /users/signup with weak password
     ok 1 - should be equal
     ok 2 - should match pattern
     1..2
-ok 2 - POST /users/signup with weak password # time=12.425ms
+ok 2 - POST /users/signup with weak password # time=9.702ms
 
 # Subtest: POST /users/signup with invalid email
     ok 1 - should be equal
     ok 2 - should match pattern
     1..2
-ok 3 - POST /users/signup with invalid email # time=7.556ms
+ok 3 - POST /users/signup with invalid email # time=6.433ms
 
 # Subtest: POST /users/login
     ok 1 - should be equal
     ok 2 - specified property should be defined own property
     ok 3 - specified property should be defined own property
     1..3
-ok 4 - POST /users/login # time=83.466ms
+ok 4 - POST /users/login # time=87.195ms
 
 # Subtest: POST /users/refresh
     ok 1 - should be equal
     ok 2 - specified property should be defined own property
     1..2
-ok 5 - POST /users/refresh # time=11.19ms
+ok 5 - POST /users/refresh # time=11.863ms
 
 # Subtest: POST /users/login with wrong password
     ok 1 - should be equal
     1..1
-ok 6 - POST /users/login with wrong password # time=75.059ms
+ok 6 - POST /users/login with wrong password # time=74.908ms
 
 # Subtest: GET /users/preferences
     ok 1 - should be equal
     ok 2 - specified property should be defined own property
     ok 3 - should be equivalent
     1..3
-ok 7 - GET /users/preferences # time=9.589ms
+ok 7 - GET /users/preferences # time=11.268ms
 
 # Subtest: GET /users/preferences without token
     ok 1 - should be equal
     1..1
-ok 8 - GET /users/preferences without token # time=7.215ms
+ok 8 - GET /users/preferences without token # time=10.555ms
 
 # Subtest: PUT /users/preferences
     ok 1 - should be equal
     1..1
-ok 9 - PUT /users/preferences # time=7.708ms
+ok 9 - PUT /users/preferences # time=7.992ms
 
 # Subtest: GET /news
     ok 1 - should be equal
     ok 2 - specified property should be defined own property
     1..2
-ok 10 - GET /news # time=8.509ms
+ok 10 - GET /news # time=500.954ms
 
 1..10
